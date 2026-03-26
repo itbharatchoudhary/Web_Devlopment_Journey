@@ -1,103 +1,168 @@
-# What I plan
 
-3. learning about Al models
-4. Research of leetCode
 
-- sd2 ,sd3 engineer
+**Date:** 26/03/2026
+**Focus Areas:** Frontend Architecture, Full-Stack Hosting, AI Basics, Product Development Foundations
 
 ---
 
-# What I Done
+## 1. Frontend Architecture – Authentication Project
 
-today what i learn ->
+**Key Learnings:**
 
-1. Work on frontend architecture of the Authentication project
+* Start with basics, then progressively move to advanced structural patterns.
+* Built **UI/UX for core pages**:
 
-- I understand Start Basic and go then advance(Structural way)
-- Basic front end UI UX
-  - Entry page
-  - Register and login page
-- Theme (dark dark and light)
+  * Entry page
+  * Register page
+  * Login page
+* Implemented **theme support**:
 
-2. how to host full stack app for free on cloudflare
+  * Dark mode & Light mode
 
-- Coding: OpenCode, Antigravity, Minimax
-- Design: Dribbble, Stitch
-- Analytics: PostHog
-- Domain: Namecheap
-- DB/Auth: Supabase, Clerk
-- Email: Resend, Supabase
-- Payments: Dodo Payments
-- Deployment: Vercel, Cloudflare, Render
+**Insights:**
+Understanding the structural flow of frontend projects is crucial for maintainability and scalability. Start simple, iterate with structure, and enhance with themes and usability.
 
-3. About AI
+---
 
-- Basic of generative AI
-  - types of AI services Provider
-  - how it is works
-  - AI is stateless by defalt
-  - what are the tool & Agent (tavily.com)
+## 2. Hosting Full-Stack Apps on Cloudflare (Free)
 
-4. Class: Foundation of Product Development-3  
-   (From 2.0 Job Ready AI Powered Cohort — Sheryians Coding School)
+**Tools & Services:**
 
-- folder structure
-  - rules of Folder structure
-  - How do use ".gitignore" How many ways
-- future of development -> "AI native engineers"
-- docker is what, How it is used in future
-- linting & setting
-  - formatting
-  - setting.json
-  - warning use
-  - logging & Observability
-- how git/github important
-  - commit Every thing in chunks
-  - branching model
-    - main -> features/branches -> PR -> review -> merge
-    - branches
-      1. Git-flow-Lite 2. Track-Based-Development
-  - Pull Request etiquette
-    - short summary, what change, Screenshots, tests added, Reviewers requests
-  - Review checklist(My way)
-  - Run Locally, Test Exists, No console logs, Proper commits message, edges cases handle
-  - Sockets, ssm,
-  - Conflict handling
-    - rebase & merge, keep history readable
-  - Testing and Quality Assurance (It is your reputation)
-    - units tests
-    - Integration test(Test models together)
-    - E2E (end-to-end) eg- [ Test Full the user flow -> buy -> confirm ]
-  - Test-Driven Development (TDD)
-    - Technique where you write Automated, failing tests before writing the actual code
-  - Deployment and maintenance
-    - CI/CD, Monitor, Scaling
-      1.  CI/CD pipelines
-          Commit to repo -> CI runs (lints, units-tests) -> Bulid artifact -> CD deploys to staging -> manual -> approval -> deploy to prod
+* **Coding:** OpenCode, Antigravity, Minimax
+* **Design:** Dribbble, Stitch
+* **Analytics:** PostHog
+* **Domain Management:** Namecheap
+* **Database & Authentication:** Supabase, Clerk
+* **Email:** Resend, Supabase
+* **Payments:** Dodo Payments
+* **Deployment:** Vercel, Cloudflare, Render
 
-      2.  Monitoring
-          Logs (what happened), metrics (how many users, success rates),traces (where time is spent)
-          - logger.ts, Security.ts,
-          - husky for Test cases / pre commands
-          - .nvmrc
+**Key Takeaway:**
+It is possible to host production-ready full-stack applications for free using a combination of modern cloud tools and services.
 
-    - Scaling strategies
-      - Vertical scaling = bigger machine (quick but limited).
-      - Horizontal scaling = more instances behind load balancer (more reliable).
-      - Caching (Redis / CDN) to reduce load.
-      - Rate-limiting & graceful degradatien for heavy load.
-      - Bottleneck -A bottleneck occurs when a component limits performance, such as CPU, memory, or network speed.Example: A website may have fast servers but a slow database query can become the bottleneck.
+---
 
-- Key mistakes to Avoid
-  1.  Over-engineering
-      - "Over-engineering is buying a Helicopter to commute to college - cool, but impractical."
-      - Don't use anything More than requirement
-  2.  Under-engineering
-      - Ship totally fragile quick-hack with no tests or logs.
-  3.  Ignoring documentation
-      - Write Readme, API contracts, setup steps. Make onboarding 5-min not 5-days.
-        X assuming future-you will remember
+## 3. AI Basics
 
+**Key Learnings:**
 
+* Generative AI overview: Types of AI service providers and how AI works
+* AI is **stateless by default**
+* Tools & Agents: Example — [tavily.com](https://tavily.com)
 
+**Insight:**
+Understanding AI architecture and tools is essential for integrating AI effectively into applications. Knowing the AI’s stateless nature helps in designing interactions and workflows.
+
+---
+
+## 4. Foundation of Product Development – Class 3
+
+*(From 2.0 Job Ready AI Powered Cohort — Sheryians Coding School)*
+
+### Folder Structure
+
+* Rules of folder structure
+* Using `.gitignore` (multiple ways)
+
+### Future of Development
+
+* Emerging role: **AI-native engineers**
+
+### Docker
+
+* What it is & future applications
+
+### Linting & Settings
+
+* Code formatting
+* `settings.json` configurations
+* Warnings & logging for observability
+
+### Git & GitHub Best Practices
+
+* Commit everything in **chunks**
+* Branching model:
+
+  * `main` → feature branches → PR → review → merge
+  * Types: Git-flow-Lite, Track-Based-Development
+* **Pull Request Etiquette:**
+
+  * Short summary
+  * Changes description
+  * Screenshots & tests added
+  * Request reviewers
+
+**Review Checklist (My Way):**
+
+* Run locally
+* Ensure tests exist
+* No console logs
+* Proper commit messages
+* Handle edge cases
+
+**Advanced Git Topics:**
+
+* Sockets, SSM
+* Conflict handling: Rebase & merge while keeping history readable
+
+---
+
+### Testing & Quality Assurance
+
+**Types of Tests:**
+
+1. Unit Tests – Individual components
+2. Integration Tests – Test multiple modules together
+3. End-to-End (E2E) – Full user flow example: Buy → Confirm
+
+**Test-Driven Development (TDD):**
+
+* Write automated, failing tests **before** actual code
+
+---
+
+### Deployment & Maintenance
+
+**CI/CD Pipelines:**
+
+1. Commit to repository → CI runs (lints, unit tests) → build artifact → CD deploys to staging → manual approval → deploy to production
+
+**Monitoring:**
+
+* Logs: What happened
+* Metrics: Success rates, user stats
+* Traces: Identify where time is spent
+* Tools: `logger.ts`, `Security.ts`, Husky for pre-commit test cases, `.nvmrc`
+
+**Scaling Strategies:**
+
+* **Vertical scaling:** Bigger machine (quick, limited)
+* **Horizontal scaling:** More instances behind load balancer (reliable)
+* **Caching:** Redis / CDN to reduce load
+* **Rate-limiting & graceful degradation** for heavy loads
+
+**Bottleneck:**
+
+* A bottleneck occurs when a component limits performance (CPU, memory, network)
+* Example: Fast servers but slow database query → overall slowdown
+
+---
+
+### Key Mistakes to Avoid
+
+1. **Over-engineering**
+
+   * Example: “Buying a helicopter to commute to college — cool, but impractical”
+   * Use only what is necessary
+
+2. **Under-engineering**
+
+   * Shipping fragile, quick hacks with no tests or logs
+
+3. **Ignoring documentation**
+
+   * Write README, API contracts, setup steps
+   * Onboarding should take **5 minutes**, not **5 days**
+
+---
 
