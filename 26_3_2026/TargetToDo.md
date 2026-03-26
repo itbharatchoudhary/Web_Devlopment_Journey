@@ -97,3 +97,7 @@ today what i learn ->
   3.  Ignoring documentation
       - Write Readme, API contracts, setup steps. Make onboarding 5-min not 5-days.
         X assuming future-you will remember
+
+
+
+
