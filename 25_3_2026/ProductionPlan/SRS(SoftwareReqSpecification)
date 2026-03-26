@@ -1,0 +1,22 @@
+SRS(Software Requirement Specification)
+
+0. Title
+
+1. Introduction
+1.1 Scope
+1.2 Out of Scope
+
+2. Functional requirement
+2.1 User register and authentication
+2.2 Order placement  
+2.3 Order Receptions
+2.4 Inventory cheque & Order Confirmation
+2.5 Order notification & Fulfilment 
+
+3. Non-functional Requirement
+3.1 Performance
+3.2 Security
+3.3 Responsibility 
+3.4 Scalability
+
+Diwakar Singh - take an example
