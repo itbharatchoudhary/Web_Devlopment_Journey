@@ -1,5 +1,3 @@
-
-
 **Date:** 26/03/2026
 **Focus Areas:** Frontend Architecture, Full-Stack Hosting, AI Basics, Product Development Foundations
 
@@ -106,6 +104,7 @@ Understanding AI architecture and tools is essential for integrating AI effectiv
 * Conflict handling: Rebase & merge while keeping history readable
 
 ---
+
 
 ### Testing & Quality Assurance
 
